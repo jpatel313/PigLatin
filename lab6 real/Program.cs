@@ -10,34 +10,51 @@ namespace lab6_real
     {
 
         public static void Main(string[] args)
+
         {
             Console.WriteLine("Enter one word: ");
             string userInput = Console.ReadLine();//USER INPUT
             userInput = userInput.ToLower();//USER INPUT to all lowercase
             string vowels = ("aeiou");
             int vowelPosition = 0;
+            bool agree = true;
 
-            if (vowels.Contains(userInput[0]))
+            while (agree)
             {
-                Console.WriteLine(userInput + "way");
+                if (vowels.Contains(userInput[0]))
+                {
+                    Console.WriteLine(userInput + "way");
+                }
+
+                else
+                {
+                    vowelPosition = FirstVowelMethod(userInput);
+                    Console.WriteLine(userInput.Substring(vowelPosition) + (userInput.Substring(0, vowelPosition) + "ay"));
+                }
             }
 
-            else
+            Console.WriteLine("Continue translating?(y/n): ");
+            string agreeResponse  = Console.ReadLine();
+
+            if ((agreeResponse == "y")|| (agreeResponse == "Y"))
             {
-                vowelPosition = FirstVowelMethod(userInput );
-                Console.WriteLine(userInput.Substring(vowelPosition) + (userInput.Substring(0, vowelPosition) + "ay"));
+                agree = true;
             }
+     
         }
+                
             
-            public static int FirstVowelMethod( string userInput)
-            {
-            char[] v = { 'a', 'e', 'i', 'o', 'u' };
-                int vowelPosition = userInput.IndexOfAny(v);
-                return vowelPosition;
-            }
 
+            public static int FirstVowelMethod(string userInput)
+        {
+            char[] v = { 'a', 'e', 'i', 'o', 'u' };
+            int vowelPosition = userInput.IndexOfAny(v);
+            return vowelPosition;
         }
-}      
+        
+}
+}       
+      
     
 
 
