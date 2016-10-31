@@ -1,0 +1,6 @@
+C:\Users\Jay Patel\Desktop\Projects\lab6 real\lab6 real\bin\Debug\lab6 real.exe.config
+C:\Users\Jay Patel\Desktop\Projects\lab6 real\lab6 real\obj\Debug\lab6 real.csprojResolveAssemblyReference.cache
+C:\Users\Jay Patel\Desktop\Projects\lab6 real\lab6 real\bin\Debug\lab6 real.exe
+C:\Users\Jay Patel\Desktop\Projects\lab6 real\lab6 real\bin\Debug\lab6 real.pdb
+C:\Users\Jay Patel\Desktop\Projects\lab6 real\lab6 real\obj\Debug\lab6 real.exe
+C:\Users\Jay Patel\Desktop\Projects\lab6 real\lab6 real\obj\Debug\lab6 real.pdb
