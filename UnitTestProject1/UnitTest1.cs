@@ -24,7 +24,7 @@ namespace UnitTestProject1
             Assert.AreEqual(1, index);//index should = 0
         }
 
-        [TestMethod]//attribute to run as a test
+      /*  [TestMethod]//attribute to run as a test
         public void TestMethodT1()
         {
             int index = lab6_real.PigLatinProgram.TranslateMethod("189");
@@ -47,7 +47,7 @@ namespace UnitTestProject1
             //int index made for testing, namespace.class.method(input variable)
             Assert.AreEqual("can't", index);//index should = 0
         }
-
+        */
 
     }
 }
